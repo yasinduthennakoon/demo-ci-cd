@@ -1,0 +1,17 @@
+{
+  "name": "demo-ci-cd",
+  "version": "1.0.0",
+  "description": "AWS Lambda function for sending emails via Amazon SES",
+  "type": "module",
+  "main": "index.mjs",
+  "scripts": {
+    "start": "node index.mjs"
+  },
+  "dependencies": {
+    "@aws-sdk/client-ses": "^3.0.0"
+  },
+  "devDependencies": {
+    "serverless": "^3.0.0",
+    "serverless-offline": "^13.0.0"
+  }
+}
