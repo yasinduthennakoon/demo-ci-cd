@@ -7,6 +7,7 @@ provider:
 
 functions:
   sendEmail:
+    name: ses-testing
     handler: index.handler
     events:
       - http:
